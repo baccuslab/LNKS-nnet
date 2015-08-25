@@ -1,5 +1,8 @@
 # LNKS-nnet
-Neural network models for predicting membrane potential and firing rate.
+Neural network models for predicting membrane potential of retinal ganglion cells to a contrast varying uniform field visual stimulus. 
+
+In the brain, neurons adapt to varying sensory information through successive layers of filtering, thresholds, and nonlinear dynamical processing. These intermediate processes are typically difficult to measure, but recent study has discovered a way to connect the lower level mechanisms to a biophysical model given a ganglion cell's membrane potential (<a href="http://www.sciencedirect.com/science/article/pii/S0896627312000797" target="_blank">Ozuysal and Baccus, Neuron 2012</a>). Here, our goal is to capture the membrane potentials of multiple cells given only the stimulus and spikes recorded from multielectrode arrays(MEAs) so that we can analyze the responses of a population of cells and their intermediate properties simultaneously.
+
 
 ## Dependencies
 In order to use and train these models, you will first need to install the following dependencies:
