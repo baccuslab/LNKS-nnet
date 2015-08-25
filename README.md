@@ -12,7 +12,7 @@ NumPy: http://www.numpy.org/
 
 SciPy: http://www.scipy.org/
 
-LNKS: https://github.com/baccuslab/LNKS.git
+LNKS (for loading cell data): https://github.com/baccuslab/LNKS.git
 
 Some of the models may involve the use of layers not found in Keras (noted at the top of the file). When this is the case, simply install these layers from here: https://github.com/anayebi/keras-extra.git.
 
