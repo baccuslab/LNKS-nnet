@@ -13,6 +13,8 @@
 # combined with the normalized MSE between a low-pass filtered version of the model's predictions 
 # and the true membrane potential.
 
+# L1 regularization of 0.01 on convolutional layer weights (not biases)
+
 # Requires use of extra layers for Keras: https://github.com/anayebi/keras-extra
 import matplotlib
 #Force matplotlib to not use any Xwindows
